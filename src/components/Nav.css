@@ -1,0 +1,23 @@
+.navbar {
+    background: #000000 !important;
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: row !important;
+}
+
+.navbar-brand span {
+    font-family: 'Cinzel', serif;
+    font-size: 17px;
+    color: white;
+}
+
+.name-logo {
+    margin-top: -3px;
+}
+
+.social-nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}

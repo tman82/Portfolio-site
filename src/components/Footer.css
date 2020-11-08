@@ -1,0 +1,227 @@
+.footer-section {
+    background: black;
+    color: #f5f5f5;
+    padding-top: 60px;
+}
+
+.footer-holder {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-top {
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.footer-top button {
+    color: royalblue;
+    background: black;
+    border: 2px solid #f5f5f5;
+    border-radius: 0px;
+    width: 140px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.footer-top ul ol {
+    display: inline-block;
+}
+
+.upper-list {
+    margin-left: 75%;
+}
+
+.upper-list ul ol {
+    margin: 0px -10px 0px -10px;
+}
+
+.linked-item {
+    padding-left: 0px;
+    margin-left: 35px !important;
+}
+
+#info-button {
+    transition: all 0.2s ease-in-out;
+}
+
+#info-button:hover {
+    color: #839eec;  
+}
+
+#contact-button {
+    transition: all 0.2s ease-in-out;
+}
+
+#contact-button:hover {
+    color: #839eec;
+}
+
+
+.show-pop-up input {
+    margin-left: 10px;
+}
+
+.pop-up {
+    display: flex;
+    transition: all 1s ease-in-out;
+    text-transform: none;
+    opacity: 0.0;
+    animation: fadeIn ease 1s;
+    -webkit-animation: fadeIn ease 1s;
+}
+
+.pop-up input {
+    margin-left: 10px;
+}
+
+.email-div {
+    margin-right: 35%;
+}
+
+.fade-in {
+    opacity: 95%;
+    transition:opacity 0.8s
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+#info-button {
+    width: 60px;
+    color: royalblue;
+    background: black;
+    border: 2px solid #f5f5f5;
+    border-radius: 0px;
+    margin-left: 5px;
+    font-weight: bold;
+
+}
+
+.pop-up ::placeholder {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #bbb;
+}
+
+.input-box {
+    padding-left: 7px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+}
+
+#footer-rule {
+    border-top: 0.1px dotted #f5f5f5 !important;
+}
+
+#my-name {
+    color: royalblue;
+    font-weight: bold;
+}
+
+
+/***  media queries  ***/
+
+@media only screen and (min-width: 880px) and (max-width: 996px) {
+    .upper-list {
+        margin-left: 70%;
+    }
+}
+
+@media only screen and (min-width: 725px) and (max-width: 880px) {
+    .upper-list {
+        margin-left: 66%;
+    }
+}
+
+@media only screen and (min-width: 645px) and (max-width: 740px) {
+    .upper-list {
+        margin-left: 62%;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 645px) {
+    .upper-list {
+        margin-left: 49%;
+    }
+}
+
+
+@media only screen and (min-width: 989px) and (max-width: 1045px) {
+    .email-div {
+        margin-right: 20%;
+    }
+}
+
+@media only screen and (min-width: 962px) and (max-width: 989px) {
+    .email-div {
+        margin-right: 30%;
+    }
+    #name-input {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 961px) {
+    .email-div {
+        margin-right: 23%;
+    }
+}
+
+@media only screen and (min-width: 880px) and (max-width: 899px) {
+    .email-div {
+        margin-right: 16%;
+    }
+}
+
+
+@media only screen and (min-width: 780px) and (max-width: 889px) {
+    .email-div {
+        margin-right: 5%;
+    }
+}
+
+@media only screen and (min-width: 755px) and (max-width: 779px) {
+    .email-div {
+        margin-right: 4%;
+    }
+}
+
+
+@media only screen and (min-width: 700px) and (max-width: 754px) {
+    .email-div {
+        margin-right: 3%;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 726px) {
+    #name-input {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 509px) {
+    #info-button {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 700px) {
+    .email-div {
+        margin-right: 1%;
+    }
+
+    #name-input {
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
