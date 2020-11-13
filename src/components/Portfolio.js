@@ -29,7 +29,7 @@ export class Portfolio extends Component {
                                         <div class="box-content">
                                             <h3 class="title">Comfort Shoes</h3>
                                             <ul class="icon z-one">
-                                                <ol><a className="left" href="#"><img src={websiteIcon} alt="icon"/></a></ol>
+                                                <ol><a className="left" href="https://comfort-shoe-store.herokuapp.com/"><img src={websiteIcon} alt="icon"/></a></ol>
                                                 <ol><a className="right" href="https://github.com/tman82/Comfort-Shoe-Store"><img src={githubIcon} alt="icon"/></a></ol>
                                             </ul>
                                         </div>
