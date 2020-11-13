@@ -49,7 +49,7 @@ export class Portfolio extends Component {
                                         <div class="box-content">
                                             <h3 class="title">Poetic Moor</h3>
                                             <ul class="icon z-one">
-                                                <ol><a className="left" href="#"><img src={websiteIcon} alt="icon"/></a></ol>
+                                                <ol><a className="left" href="http://poeticmoor.com/index.html"><img src={websiteIcon} alt="icon"/></a></ol>
                                                 <ol><a className="right" href="#"><img src={githubIcon} alt="icon"/></a></ol>
                                             </ul>
                                         </div>
